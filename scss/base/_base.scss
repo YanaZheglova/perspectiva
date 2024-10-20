@@ -1,0 +1,36 @@
+/*
+e-global-typography-primary-font-family: "Oswald";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Oswald";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Nunito Sans"
+
+
+		 font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+		*/
+
+body {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  color: $color-text;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

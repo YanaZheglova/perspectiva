@@ -1,0 +1,55 @@
+.banner {
+  margin-top: -250px;
+  padding-top: 350px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(49, 67, 82, 0.85),
+      #314352ad,
+      rgba(49, 67, 82, 0.85)
+    ),
+    url("./../../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+}
+.banner__row {
+  max-width: 650px;
+}
+.bannerr__subtitle {
+  color: $color-accept;
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.banner__title {
+  color: $color-white-title;
+  font-weight: 600;
+  font-size: 72px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.banner__text {
+  color: $color-white-title;
+  padding-bottom: 20px;
+}
+.banner__btn {
+  text-transform: uppercase;
+}
+.banner__btn-accept {
+  background-color: $color-accept;
+  padding: 15px 30px 15px 30px;
+  font-size: 18px;
+
+  color: $color-dark;
+  max-width: 200px;
+  margin-right: 25px;
+}
+.banner__btn-link {
+  color: $color-white;
+}

@@ -1,0 +1,52 @@
+.header {
+  padding-top: 30px;
+
+  height: 200px;
+  /*  border-bottom: 1px solid #73818c;
+*/
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.logo {
+}
+.logo__link {
+}
+.logo__icon {
+}
+.logo__name {
+  color: $color-white;
+}
+.header__nav {
+}
+.nav {
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+}
+.nav__item {
+}
+.nav__link {
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+
+  line-height: 1;
+  padding: 0 15px;
+}
+
+.header__contact {
+  display: flex;
+  column-gap: 40px;
+  justify-content: center;
+}
+.header__contact-tel {
+}
+.header__contact-phono {
+  color: $color-white;
+}
