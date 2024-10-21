@@ -1,6 +1,7 @@
 .banner {
   margin-top: -250px;
   padding-top: 350px;
+  padding-bottom: 70px;
 
   background: linear-gradient(
       180deg,
@@ -11,10 +12,9 @@
     url("./../../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  /*  height: 100vh; */
 }
-.container {
-}
+
 .banner__row {
   max-width: 650px;
 }
@@ -36,10 +36,11 @@
 }
 .banner__text {
   color: $color-white-title;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .banner__btn {
   text-transform: uppercase;
+  margin-right: 45px;
 }
 .banner__btn-accept {
   background-color: $color-accept;

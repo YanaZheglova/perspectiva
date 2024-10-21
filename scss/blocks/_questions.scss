@@ -1,0 +1,42 @@
+.questions {
+  padding: 90px 0;
+  background: linear-gradient(
+      180deg,
+      #ffffff 40%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("./../../img/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.questions__row {
+  display: flex;
+  justify-content: space-between;
+}
+.questions__content {
+  display: flex;
+  flex-direction: column;
+  grid-row: 15px;
+}
+.questions__subtitle {
+}
+.questions__title {
+}
+.questions__text {
+}
+.banner__btn-accept {
+}
+.questions__accordion {
+}
+.accordion {
+}
+.accordion__item {
+}
+.accordion__item_show {
+}
+.accordion__header {
+}
+.accordion__body {
+}
