@@ -39,18 +39,19 @@
   padding-bottom: 60px;
 }
 .banner__btn {
-  text-transform: uppercase;
   margin-right: 45px;
 }
 .banner__btn-accept {
   background-color: $color-accept;
   padding: 15px 30px 15px 30px;
   font-size: 18px;
+  text-transform: uppercase;
 
   color: $color-dark;
-  max-width: 200px;
+  max-width: 160px;
   margin-right: 25px;
 }
 .banner__btn-link {
   color: $color-white;
+  text-transform: uppercase;
 }

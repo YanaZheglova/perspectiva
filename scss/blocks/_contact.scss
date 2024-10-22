@@ -1,0 +1,68 @@
+.contact {
+  padding: 70px 0;
+  background: linear-gradient(
+      180deg,
+      rgba(49, 67, 82, 0.85),
+      #314352ad,
+      rgba(49, 67, 82, 0.85)
+    ),
+    url("../../img/benefits-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact__row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+.contact__header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.contact__address {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contact__inner {
+  font-size: 18px;
+  line-height: 1.1;
+}
+.contact__title {
+  color: $color-accept;
+  padding-bottom: 15px;
+}
+.contact__street {
+  color: $color-white;
+  padding-bottom: 15px;
+}
+.contact__mail {
+  a {
+    color: $color-white;
+  }
+}
+.contact__phone {
+  padding-bottom: 15px;
+  a {
+    color: $color-white;
+  }
+}
+.contact__socials {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.contact__item {
+}
+
+.contact__map {
+  margin-top: 45px;
+  max-width: 900px;
+}

@@ -1,0 +1,55 @@
+.footer {
+  background-color: $color-footer-bg;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 60px 30px;
+  color: $color-footer-text;
+  transition: color 0.3s;
+}
+
+.footer__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-items: start;
+}
+
+.footer__menu {
+}
+.footer__list {
+  display: grid;
+  gap: 15px;
+}
+.footer__item {
+}
+.footer__link {
+  color: $color-footer-text;
+  transition: color 0.3s;
+  font-size: 18px;
+
+  &--title {
+    color: $color-white;
+  }
+}
+
+.footer__content {
+  display: grid;
+  gap: 15px;
+}
+.footer__content-title {
+  color: $color-white;
+  font-size: 18px;
+}
+.footer__content-text {
+  line-height: 1.4;
+}
+.footer__contact {
+}
+.contact__inner {
+}
+.contact__title {
+}
+.contact__street {
+}
+.contact__mail {
+}
