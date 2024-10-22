@@ -1,12 +1,12 @@
 .banner {
   margin-top: -250px;
-  padding-top: 350px;
+  padding-top: 300px;
   padding-bottom: 70px;
 
   background: linear-gradient(
       180deg,
       rgba(49, 67, 82, 0.85),
-      #314352ad,
+      rgba(49, 67, 82, 0.85),
       rgba(49, 67, 82, 0.85)
     ),
     url("./../../img/header-bg.jpg");
@@ -30,8 +30,8 @@
 .banner__title {
   color: $color-white-title;
   font-weight: 600;
-  font-size: 72px;
-  text-transform: capitalize;
+  font-size: 70px;
+  text-transform: uppercase;
   padding-bottom: 20px;
 }
 .banner__text {

@@ -7,16 +7,15 @@
 .socials__item {
   width: 30px;
   height: 30px;
-  background-color: $color-accept;
 }
 .socials__link {
+  &.socials__icon {
+    color: $color-white;
+    fill: antiquewhite;
+  }
 }
 .socials__icon {
-  display: flex;
-  /*   left: 50%;
-  transform: translateX(-50%); */
-  align-items: center;
-  width: 15px;
+  width: 30px;
 
-  height: 15px;
+  height: 30px;
 }

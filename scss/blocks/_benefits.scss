@@ -3,7 +3,7 @@
   background: linear-gradient(
       180deg,
       rgba(49, 67, 82, 0.85),
-      #314352ad,
+      rgba(49, 67, 82, 0.85),
       rgba(49, 67, 82, 0.85)
     ),
     url("../../img/benefits-bg.jpg");
@@ -31,6 +31,8 @@
   height: auto;
 }
 .benefits__name {
+  font-weight: 500;
+  text-align: center;
 }
 .benefits__description {
   text-align: center;

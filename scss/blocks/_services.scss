@@ -36,8 +36,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 70px;
+  column-gap: 90px;
 }
 .services__subtitle {
   color: $color-accept;
@@ -62,9 +63,9 @@
 
 .services__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 120px;
+
   max-width: 1000px;
 }
 .services__item {
@@ -80,6 +81,9 @@
 .services__description {
   line-height: 1.8;
   padding-bottom: 20px;
+  & span {
+    font-weight: 500;
+  }
 }
 .services_view {
   color: $color-accept;

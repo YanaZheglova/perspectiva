@@ -2,8 +2,6 @@
   padding-top: 30px;
 
   height: 200px;
-  /*  border-bottom: 1px solid #73818c;
-*/
 }
 
 .header__row {
@@ -13,10 +11,14 @@
   align-items: center;
 }
 .logo {
+  display: flex;
+  flex-direction: column;
 }
 .logo__link {
+  text-align: center;
 }
 .logo__icon {
+  width: 90px;
 }
 .logo__name {
   color: $color-white;
