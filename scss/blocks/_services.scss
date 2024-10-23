@@ -5,7 +5,7 @@
       #ffffff 40%,
       rgba(255, 255, 255, 0.7) 100%
     ),
-    url("./../../img/services-bg.jpg");
+    url("./../img/services-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -69,12 +69,13 @@
   max-width: 1000px;
 }
 .services__item {
-  max-width: 240px;
+  max-width: 260px;
+  text-align: center;
 }
 .services__name {
   font-weight: 500;
   font-size: 28px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   line-height: 1.1;
   color: $color-heading;
 }

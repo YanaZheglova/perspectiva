@@ -6,7 +6,7 @@
       #314352ad,
       rgba(49, 67, 82, 0.85)
     ),
-    url("../../img/benefits-bg.jpg");
+    url("./../img/benefits-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,6 +38,9 @@
 .contact__title {
   color: $color-accept;
   padding-bottom: 15px;
+  &--footer {
+    padding-top: 20px;
+  }
 }
 .contact__street {
   color: $color-white;
