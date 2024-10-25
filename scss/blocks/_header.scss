@@ -23,24 +23,6 @@
 .logo__name {
   color: $color-white;
 }
-.header__nav {
-}
-.nav {
-}
-.nav__list {
-  display: flex;
-  justify-content: center;
-}
-.nav__item {
-}
-.nav__link {
-  color: $color-white;
-  text-transform: uppercase;
-  font-size: 1.15rem;
-
-  line-height: 1;
-  padding: 0 15px;
-}
 
 .header__contact {
   display: flex;
@@ -48,7 +30,21 @@
   justify-content: center;
 }
 .header__contact-tel {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(0%, -50%);
+    background-image: url(./../../img/pnone-25.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
+
 .header__contact-phono {
   color: $color-white;
 }

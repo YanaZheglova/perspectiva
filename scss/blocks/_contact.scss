@@ -45,14 +45,54 @@
 .contact__street {
   color: $color-white;
   padding-bottom: 15px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -42px;
+    top: 11px;
+    width: 30px;
+    height: 30px;
+    transform: translate(0%, -50%);
+    background-image: url(./../../img/location-25.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 .contact__mail {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -42px;
+    top: 11px;
+    width: 30px;
+    height: 30px;
+    transform: translate(0%, -50%);
+    background-image: url(./../../img/mail-25.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   a {
     color: $color-white;
   }
 }
 .contact__phone {
   padding-bottom: 15px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    transform: translate(0%, -50%);
+    background-image: url(./../../img/pnone-25.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   a {
     color: $color-white;
   }

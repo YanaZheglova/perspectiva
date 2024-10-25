@@ -1,0 +1,108 @@
+@media (max-width: 1284px) {
+}
+@media (max-width: 1024px) {
+  .banner__title {
+    font-size: 55px;
+  }
+  .services__header {
+    font-size: 40px;
+  }
+  .services__header {
+    column-gap: 60px;
+  }
+  .questions__title {
+    font-size: 40px;
+  }
+  .footer__row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 980px) {
+  .questions__title {
+    font-size: 40px;
+  }
+  .questions__row {
+    flex-direction: column;
+  }
+  .questions__content {
+    max-width: 600px;
+  }
+
+  .dark__text {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 867px) {
+  .benefits__row {
+    gap: 25px;
+  }
+  .benefits__item {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner__row {
+    text-align: center;
+  }
+  .banner__title {
+    font-size: 40px;
+  }
+  .services__header {
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+  }
+  .services__cards {
+    gap: 70px;
+  }
+  .services__title {
+    font-size: 40px;
+  }
+
+  .benefits__row {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+@media (max-width: 677px) {
+  .footer__row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .services__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .dark__title {
+    font-size: 40px;
+  }
+  .questions__title {
+    font-size: 35px;
+  }
+  .contact__address {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .banner__title {
+    font-size: 35px;
+  }
+  .accordion button .accordion-title {
+    padding: 1em 1em 1em 0;
+  }
+  .accordion button {
+    font-size: 1.1rem;
+  }
+  .questions__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 385px) {
+  .banner__title {
+    font-size: 30px;
+  }
+}

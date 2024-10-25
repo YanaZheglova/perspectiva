@@ -6,7 +6,6 @@
     <title>perspektiva</title>
 
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,25 +34,29 @@
           </div>
 
           <div class="header__nav">
-            <nav class="nav">
+            <nav class="nav" id="nav">
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="" class="nav__link">Услуги</a>
+                  <a href="#services" class="nav__link js-scroll">Услуги</a>
                 </li>
                 <li class="nav__item">
-                  <a href="" class="nav__link">О нас</a>
+                  <a href="#benefits" class="nav__link js-scroll">О нас</a>
                 </li>
                 <li class="nav__item">
-                  <a href="" class="nav__link">Контакты</a>
+                  <a href="#contact" class="nav__link js-scroll">Контакты</a>
                 </li>
               </ul>
+              <button id="nav-btn" class="nav-button">
+                <img
+                  id="nav-btn-img"
+                  class="bar"
+                  src="./img/nav-bar.svg"
+                  alt=""
+                />
+              </button>
             </nav>
           </div>
-          <div class="header__nav-btn">
-            <button class="nav-icon-btn">
-              <div class="nav-icon"></div>
-            </button>
-          </div>
+
           <div class="header__contact">
             <div class="header__contact-tel">
               <a class="header__contact-phono" href="tel:+79107440507"
@@ -100,13 +103,15 @@
             оформление свидетельства и занесение его в реестр Росстандарта
           </p>
           <div class="banner__btn">
-            <a href="" class="banner__btn-accept">Все услуги</a>
-            <a href="" class="banner__btn-link">Подробнее</a>
+            <a href="#services" class="js-scroll banner__btn-accept"
+              >Все услуги</a
+            >
+            <a href="#services" class="banner__btn-link js-scroll">Подробнее</a>
           </div>
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <div class="services__row">
           <h6 class="services__subtitle">Наши основные услуги</h6>
@@ -133,7 +138,7 @@
                 электронный паспорт транспортного средства, цифровая запись в
                 базе данных
               </p>
-              <a href="" class="services_view">подробнее</a>
+              <a href="#services" class="js-scroll services_view">подробнее</a>
             </div>
 
             <div class="services__item">
@@ -173,7 +178,7 @@
         </div>
       </div>
     </section>
-    <section class="benefits">
+    <section class="benefits" id="benefits">
       <div class="container">
         <h6 class="dark__subtitle">О лаборатории</h6>
         <h4 class="dark__title">Наши преимущества</h4>
@@ -307,7 +312,7 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="contact__row">
           <div class="contact__header">
@@ -358,7 +363,7 @@
               </ul>
             </div>
           </div>
-          <div class="contact__map">
+          <div class="contact__map none">
             <script
               type="text/javascript"
               charset="utf-8"
@@ -404,7 +409,7 @@
             </ul>
           </div>
           <div class="footer__content">
-            <h6 class="footer__content-title">Услуги</h6>
+            <h6 class="footer__content-title"></h6>
             <p class="footer__content-text">
               Проведение экспертизы конструкции ТС, составление протокола,
               оформление свидетельства и занесение его в реестр Росстандарта

@@ -8,7 +8,11 @@
 
 .footer__row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-columns: minmax(100px, 200px) minmax(210px, 300px) repeat(
+      2,
+      1fr
+    );
   gap: 30px;
   justify-items: center;
   align-items: start;
