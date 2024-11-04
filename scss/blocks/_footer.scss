@@ -1,7 +1,7 @@
 .footer {
   background-color: $color-footer-bg;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 60px 30px;
+
   color: $color-footer-text;
   transition: color 0.3s;
 }
@@ -9,13 +9,11 @@
 .footer__row {
   display: grid;
 
-  grid-template-columns: minmax(100px, 200px) minmax(210px, 300px) repeat(
-      2,
-      1fr
-    );
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  justify-items: center;
+  justify-content: space-between;
   align-items: start;
+  padding: 60px 0;
 }
 
 .footer__menu {
@@ -48,6 +46,7 @@
   line-height: 1.4;
 }
 .footer__contact {
+  padding-left: 35px;
 }
 .contact__inner {
 }
@@ -56,4 +55,10 @@
 .contact__street {
 }
 .contact__mail {
+}
+.footer__bottom {
+  box-shadow: inset 0 4px 100px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-width: 50px;
+  padding: 25px;
 }

@@ -10,3 +10,38 @@ $color-border: #f3f3f3;
 $color-dark: #101018;
 $color-footer-bg: #314352;
 $color-footer-text: #b4b4b4;
+
+@mixin bg-white() {
+  background: linear-gradient(
+      180deg,
+      #ffffff 40%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("./../img/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@mixin header-bg-page() {
+  background: linear-gradient(
+      180deg,
+      rgba(49, 67, 82, 0.87),
+      rgba(49, 67, 82, 0.85) 100%
+    ),
+    url("./../img/bg-page.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin bg-call() {
+  background: linear-gradient(
+      180deg,
+      rgba(49, 67, 82, 0.87),
+      rgba(49, 67, 82, 0.85) 100%
+    ),
+    url("./../img/services-bg-page.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

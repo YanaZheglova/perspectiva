@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" / >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>perspektiva</title>
 
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +26,7 @@
         <div class="header__row">
           <div class="logo">
             <a href="#!" class="logo__link">
-              <img class="logo__icon" src="./img/LOGOImg.png" alt="Логотип" />
+              <img class="logo__icon" src="./img/LOGO-25.png" alt="Логотип" />
               <p class="logo__name">
                 Испытательная лаборатория <br />
                 ООО «Перспектива»
@@ -116,10 +117,10 @@
         <div class="services__row">
           <h6 class="services__subtitle">Наши основные услуги</h6>
           <div class="services__header">
-            <h2 class="services__title">
+            <h2 class="white__title">
               Испытательная лаборатория "Перспектива"
             </h2>
-            <p class="services__text">
+            <p class="white__text">
               ПОМОЖЕМ ОФОРМИТЬ СВИДЕТЕЛЬСТВО О БЕЗОПАСНОСТИ (СБКТС) И ЛЮБЫЕ
               ИЗМЕНЕНИЯ В КОНСТРУКЦИИ ТС.
             </p>
@@ -374,13 +375,13 @@
         </div>
       </div>
     </section>
-    <script src="./main.js"></script>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__row">
           <div class="logo">
             <a href="#!" class="logo__link">
-              <img class="logo__icon" src="./img/LOGOImg.png" alt="Логотип" />
+              <img class="logo__icon" src="./img/LOGO-25.png" alt="Логотип" />
               <p class="logo__name">
                 Испытательная лаборатория <br />
                 ООО «Перспектива»
@@ -456,6 +457,20 @@
           </div>
         </div>
       </div>
+      <div classname="scroll-to-top">
+        <span class="btn btn-position btn-style" style="visibility: visible"
+          >^</span
+        >
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          Испытательная лаборатория ООО "Перспектива" &copy;
+          <?php echo date('Y'); ?>
+        </p>
+      </div>
     </footer>
   </body>
+  <script src="./js/accordion.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/scrolltop.js"></script>
 </html>

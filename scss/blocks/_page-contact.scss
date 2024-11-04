@@ -1,0 +1,37 @@
+.contact--page {
+  @include bg-white();
+  padding: 15px 0;
+  margin-top: 45px;
+}
+
+.header--page {
+  height: 180px;
+  background-color: $color-heading;
+}
+
+.header__bottom {
+  padding: 15px 0;
+  height: 380px;
+  @include header-bg-page();
+  display: flex;
+  align-items: center;
+}
+
+.header__bottom-title {
+  color: $color-white;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.contact--page {
+  background-color: $color-heading;
+}
+.contact__address--page {
+  margin: 35px 0;
+}
+.contact__phone--page a,
+.contact__mail--page a,
+.contact__street--page {
+  color: $color-text;
+  padding-bottom: 20px;
+}

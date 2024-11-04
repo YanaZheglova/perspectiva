@@ -5,11 +5,10 @@
     font-size: 55px;
   }
   .services__header {
+    column-gap: 60px;
     font-size: 40px;
   }
-  .services__header {
-    column-gap: 60px;
-  }
+
   .questions__title {
     font-size: 40px;
   }
@@ -32,6 +31,12 @@
   .dark__text {
     margin-bottom: 45px;
   }
+  .header__bottom {
+    height: 280px;
+  }
+  .header__bottom-title {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 867px) {
@@ -40,6 +45,10 @@
   }
   .benefits__item {
     padding: 20px;
+  }
+  .call__row {
+    row-gap: 15px;
+    justify-content: center;
   }
 }
 
@@ -58,7 +67,7 @@
   .services__cards {
     gap: 70px;
   }
-  .services__title {
+  .white__title {
     font-size: 40px;
   }
 
@@ -70,9 +79,31 @@
   .footer__row {
     grid-template-columns: repeat(1, 1fr);
   }
+  .call__phone a {
+    font-size: 42px;
+  }
+  .call__card {
+    padding: 25px;
+  }
 }
 
 @media (max-width: 500px) {
+  .header__row {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .header--page {
+    height: 280px;
+  }
+  .header__contact {
+    align-items: center;
+  }
+  .header__bottom {
+    height: 220px;
+  }
+  .header__bottom-title {
+    font-size: 50px;
+  }
   .services__cards {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -86,8 +117,19 @@
     flex-direction: column;
     row-gap: 20px;
   }
+  .call__phone a {
+    font-size: 36px;
+  }
+  .call__card {
+    padding: 20px;
+  }
 }
 @media (max-width: 480px) {
+  .header__contact {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
   .banner__title {
     font-size: 35px;
   }
@@ -104,5 +146,10 @@
 @media (max-width: 385px) {
   .banner__title {
     font-size: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .banner {
+    padding-top: 320px;
   }
 }

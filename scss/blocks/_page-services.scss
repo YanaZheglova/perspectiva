@@ -1,0 +1,53 @@
+.call {
+  @include bg-call();
+}
+.container {
+  max-width: 1000px;
+  padding: 35px;
+}
+.call__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.call__text {
+  line-height: 1.1;
+  text-align: center;
+}
+.call__title {
+  color: $color-white;
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.call__phone a {
+  color: $color-accept;
+  font-size: 48px;
+  font-weight: 500;
+}
+.call__cards {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.call__card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(157, 157, 157, 0.3);
+
+  align-items: center;
+
+  padding: 35px;
+}
+.call__card-title {
+  color: $color-white-title;
+  font-size: 32px;
+  font-weight: 500;
+}
+.call__card-text {
+  color: $color-footer-text;
+  font-size: 17px;
+  font-weight: 400;
+}

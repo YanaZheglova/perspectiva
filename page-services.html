@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" / >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>perspektiva</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header header--page">
+      <div class="container">
+        <div class="header__row">
+          <div class="logo">
+            <a href="#!" class="logo__link">
+              <img class="logo__icon" src="./img/LOGO-25.png" alt="Логотип" />
+              <p class="logo__name">
+                Испытательная лаборатория <br />
+                ООО «Перспектива»
+              </p>
+            </a>
+          </div>
+
+          <div class="header__nav">
+            <nav class="nav" id="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#services" class="nav__link js-scroll">Услуги</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#benefits" class="nav__link js-scroll">О нас</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link js-scroll">Контакты</a>
+                </li>
+              </ul>
+              <button id="nav-btn" class="nav-button">
+                <img
+                  id="nav-btn-img"
+                  class="bar"
+                  src="./img/nav-bar.svg"
+                  alt=""
+                />
+              </button>
+            </nav>
+          </div>
+
+          <div class="header__contact">
+            <div class="header__contact-tel">
+              <a class="header__contact-phono" href="tel:+79107440507"
+                >+7 910 744 05 07</a
+              >
+            </div>
+            <div class="header__contact-socials">
+              <ul class="socials">
+                <li class="socials__item">
+                  <a
+                    class="socials__link"
+                    href="https://api.whatsapp.com/send?phone=79107440507"
+                    ><img
+                      class="socials__icon"
+                      src="./img/socials/whatsapp.png"
+                      alt=""
+                  /></a>
+                </li>
+
+                <li class="socials__item">
+                  <a class="socials__link" href="https://t.me/labperspektiva"
+                    ><img
+                      class="socials__icon"
+                      src="./img/socials/telegram.png"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header__bottom">
+      <div class="container">
+        <h1 class="header__bottom-title">Услуги</h1>
+      </div>
+    </div>
+    <main>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services__row">
+            <h6 class="services__subtitle">Наши основные услуги</h6>
+            <div class="services__header">
+              <h2 class="white__title">
+                Испытательная лаборатория "Перспектива"
+              </h2>
+              <p class="white__text">
+                ПОМОЖЕМ ОФОРМИТЬ СВИДЕТЕЛЬСТВО О БЕЗОПАСНОСТИ (СБКТС) И ЛЮБЫЕ
+                ИЗМЕНЕНИЯ В КОНСТРУКЦИИ ТС.
+              </p>
+            </div>
+            <div class="services__cards">
+              <div class="services__item">
+                <h3 class="services__name">Оформление СБКТС</h3>
+                <p class="services__description">
+                  свидетельство безопасности конструкции транспортного средства.
+                </p>
+                <a href="" class="services_view">подробнее</a>
+              </div>
+              <div class="services__item">
+                <h3 class="services__name">Оформление ЭПТС</h3>
+                <p class="services__description">
+                  электронный паспорт транспортного средства, цифровая запись в
+                  базе данных
+                </p>
+                <a href="#services" class="js-scroll services_view"
+                  >подробнее</a
+                >
+              </div>
+
+              <div class="services__item">
+                <h3 class="services__name">Переоборудование ТС</h3>
+                <p class="services__description">
+                  проверка выполнения требования к ТС в случае внесения
+                  изменений в их конструкцию.
+                </p>
+                <a href="" class="services_view">подробнее</a>
+              </div>
+              <div class="services__item">
+                <h3 class="services__name">Восстановление VIN-номера ТС</h3>
+                <p class="services__description">
+                  <span>Нанесение</span> дополнительной маркировки транспортного
+                  средства.
+                </p>
+                <a href="" class="services_view">подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="call">
+        <div class="container">
+          <div class="call__row">
+            <div class="call__text">
+              <h6 class="call__title">Есть вопросы? Звоните.</h6>
+              <div class="call__phone">
+                <a href="tel:+79107440507">+7 910 744-05-07</a>
+              </div>
+            </div>
+            <div class="call__cards">
+              <div class="call__card">
+                <h6 class="call__card-title">98+</h6>
+                <p class="call__card-text">Выполненных проектов</p>
+              </div>
+              <div class="call__card">
+                <h6 class="call__card-title">18</h6>
+                <p class="call__card-text">Довольных клиентов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="logo">
+            <a href="#!" class="logo__link">
+              <img class="logo__icon" src="./img/LOGO-25.png" alt="Логотип" />
+              <p class="logo__name">
+                Испытательная лаборатория <br />
+                ООО «Перспектива»
+              </p>
+            </a>
+          </div>
+          <div class="footer__menu">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link footer__link--title" href="#!">Услуги</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#!">Оформление СБКТС</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#!">Оформление ЭПТС</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#!">Переоборудование ТС</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#!"
+                  >Восстановление VIN-номера ТС</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h6 class="footer__content-title"></h6>
+            <p class="footer__content-text">
+              Проведение экспертизы конструкции ТС, составление протокола,
+              оформление свидетельства и занесение его в реестр Росстандарта
+            </p>
+          </div>
+          <div class="footer__contact">
+            <div class="contact__inner">
+              <h6 class="contact__title">Адрес</h6>
+              <div class="contact__street">
+                г. Воронеж, ул. Антонова-Овсеенко, 7
+              </div>
+              <div class="contact__mail">
+                <a href="mailto:il.perspektiva@mail.ru"
+                  >il.perspektiva@mail.ru</a
+                >
+              </div>
+              <h6 class="contact__title contact__title--footer">Телефон</h6>
+              <div class="contact__phone">
+                <a href="tel:+79107440507">8(910)744-05-07</a>
+              </div>
+
+              <ul class="socials">
+                <li class="socials__item">
+                  <a
+                    class="socials__link"
+                    href="https://api.whatsapp.com/send?phone=79107440507"
+                    ><img
+                      class="socials__icon"
+                      src="./img/socials/whatsapp.png"
+                      alt=""
+                  /></a>
+                </li>
+
+                <li class="socials__item">
+                  <a class="socials__link" href="https://t.me/labperspektiva"
+                    ><img
+                      class="socials__icon"
+                      src="./img/socials/telegram.png"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          Испытательная лаборатория ООО "Перспектива" &copy;
+          <?php echo date('Y'); ?>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

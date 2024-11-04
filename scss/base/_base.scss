@@ -61,3 +61,16 @@ body {
 .none {
   display: none;
 }
+
+.white__title {
+  color: $color-heading;
+  max-width: 600px;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.white__text {
+  max-width: 600px;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
