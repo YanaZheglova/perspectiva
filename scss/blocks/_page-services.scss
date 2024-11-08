@@ -1,7 +1,7 @@
 .call {
   @include bg-call();
 }
-.container {
+.container__services {
   max-width: 1000px;
   padding: 35px;
 }
@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 25px 0;
 }
 .call__text {
   line-height: 1.1;
